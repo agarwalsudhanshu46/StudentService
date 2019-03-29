@@ -29,7 +29,7 @@ public class StudentServiceController {
 	private StudentService studentService;
 
 	@Autowired
-	private PdfExcelAndCsvService pdfAndExcelService;
+	private PdfExcelAndCsvService<Student> pdfAndExcelService;
 	
 	@Autowired
 	private ServletContext context;
